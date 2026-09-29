@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: rgb(5, 5, 116);
+  color: white;
+  padding-bottom: 100px;
+  position: relative;
+  min-height: 500px;
+}
+
+#nav_bar {
+  width: 100%;
+  height: 85px;
+  background: rgb(7, 74, 199);
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+#nav_bar #initial {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#nav_bar #initial img {
+  width: 20%;
+  height: auto;
+}
+
+#nav_bar #initial .name {
+  width: 75%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  /* background-color: aqua; */
+  font-weight: bold;
+}
+
+#nav_bar .links {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav_bar .links a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#main {
+  padding: 20px;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+/* .inter {
+  width: 30%;
+  height: auto;
+  border: 1px solid rgb(155, 250, 250);
+  border-radius: 7px;
+  padding: 5px 8px;
+  word-spacing: 2px;
+  text-align: justify;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+} */
+
+.hymns {
+  width: 40%;
+  height: fit-content;
+  /* margin: 20px 0; */
+  background: rgba(100, 148, 237, 0.288);
+  padding: 10px;
+}
+
+.hymns h2,
+strong {
+  font-family: "Poppins", sans-serif;
+}
+.hymns p {
+  margin-bottom: 14px;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+#myself {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myself .picture {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+}
+
+#myself .picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.15),
+    0 20px 40px rgba(0, 0, 0, 0.1);
+  /* background: rgb(0, 0, 0); */
+}
+
+#myself .bio {
+  width: 100%;
+}
+
+#myself .bio hr {
+  margin-bottom: 10px;
+}
+
+#myself .bio h2 {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+#myself .bio p {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+}
+
+#footer {
+  height: 80px;
+  width: 100%;
+  background: rgb(14, 2, 185);
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#footer p {
+  width: 100%;
+  font-size: 1.2vw;
+  text-align: center;
+  padding: 2px 0;
+  font-family: "Inter", sans-serif;
+}
