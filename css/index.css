@@ -338,6 +338,7 @@ strong {
   #myself .bio p {
     text-align: left;
     line-height: 1.65;
+    text-align: justify;
   }
 
   #myself .bio h2 {
@@ -405,5 +406,6 @@ strong {
 
   #footer p {
     font-size: 12px;
+    text-align: justify;
   }
 }
